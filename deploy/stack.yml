@@ -280,6 +280,9 @@ Resources:
             - codepipeline:PutJobSuccessResult
             Resource: "*"
             Effect: Allow
+             - Action: "s3:*"  # Add this statement for AmazonS3FullAccess
+          Resource: "*"
+          Effect: Allow
   TestLambda:
     Type: "AWS::Lambda::Function"
     Properties: 
