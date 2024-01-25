@@ -20,29 +20,29 @@ Parameters:
 Mappings:
   RegionMap:
     'ap-south-1':
-      AMI: 'ami-cacbbea5'
+      AMI: 'ami-039e1f129f345d75f'
     'eu-west-1':
-      AMI: 'ami-d41d58a7'
+      AMI: 'ami-09961f5df132ebff4'
     'ap-northeast-2':
-      AMI: 'ami-a04297ce'
+      AMI: 'ami-08b4e1d59ace22a4c'
     'ap-northeast-1':
-      AMI: 'ami-1a15c77b'
+      AMI: 'ami-0556b98d8e7a269f1'
     'sa-east-1':
-      AMI: 'ami-b777e4db'
+      AMI: 'ami-0ebbbf95cabd4f5de'
     'ap-southeast-1':
-      AMI: 'ami-7243e611'
+      AMI: 'ami-0e75e9888b89c15e1'
     'ap-southeast-2':
-      AMI: 'ami-55d4e436'
+      AMI: 'ami-0de5b371cbca0edcb'
     'eu-central-1':
-      AMI: 'ami-0044b96f'
+      AMI: 'ami-0481b07f6538e4494'
     'us-east-1':
-      AMI: 'ami-c481fad3'
+      AMI: 'ami-008677ef1baf82eaf'
     'us-east-2':
-      AMI: 'ami-71ca9114'
+      AMI: 'ami-0a9a47155910e782f'
     'us-west-1':
-      AMI: 'ami-de347abe'
+      AMI: 'ami-061ea90489f8844ca'
     'us-west-2':
-      AMI: 'ami-b04e92d0'
+      AMI: 'ami-085648d85db272f29'
 Resources:
   ArtifactStore:
     Type: "AWS::S3::Bucket"
